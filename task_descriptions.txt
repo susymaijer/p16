@@ -1,0 +1,33 @@
+########## CT
+### full size
+501- NIH, pancreas
+510- MSD, pancreas
+511- MSD, pancreas, trained with AMOS config
+521/525- BTCV, pancreas
+522/526- BTCV, all organs
+523/527- BTCV, pancreas+veins+spleen+(aorta)
+530- amos, pancreas
+535- amos, all organs
+540- totalsegmentator, pancreas
+### cropped
+551- NIH, pancreas 
+561- MSD, pancreas
+######## MRI
+600- amos, MRI only, pancreas only 
+601- amos, MRI only, pancreas only, pretrained on CT( failed)
+602- amos, MRI only, pancreas only, trained with p16 config
+603- amos+P16, MRI only, pancreas only
+610- p16, MRI only, pancreas only, Batch0
+611- p16, MRI only, pancreas only, Batch0 + pretrained on AMOS (weights from 602)
+612- p16, MRI only, pancreas only, Batch0 + Batch1
+613- p16, MRI only, pancreas only, Batch0 + Batch1 + Batch2
+####### CT MAAR ZELF BEDACHT
+800- 80 van NIH en 80 MSD, only pancreas ofcourse
+###### DUMMY
+900- copy NIH
+901- copy BCV 4 organs (527)
+
+
+
+
+
