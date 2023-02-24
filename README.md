@@ -49,7 +49,7 @@ Verify versions:
 
 > python -c 'import torch;print(torch.__version__)'
 
-Now, ready to install the nnU-net. Since I changed the nnU-Net code, I did the following:
+Now, ready to install the nnU-net. Since I changed the nnU-Net code (see https://github.com/susymaijer/nnUNet/pull/1/files#diff-8dd31b4bc0307c9118390da6367f76a02bea2a615b443ff03b615615d46ae379 for reference), I did the following:
 
 > mkdir [YOUR_PATH_TO_NNU_NET_CODE]
 
