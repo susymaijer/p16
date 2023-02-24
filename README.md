@@ -23,13 +23,13 @@ On default, environments get put in your home directory. We don't want this, sin
 
 > pip config set pancreas.target /exports/lkeb-hpc/[YOUR_USER_NAME]/venv_environments/[YOUR_VENV_NAME]
 
-Then, install the following packages:
+Then, also install the following packages:
 - SimpleITK
 - pydicom
 
 **Option 2: Clone my venv environment (Not recommended)**
 
-I'm not even sure if this would work, since the nnU-Net installation is quite specific. However, I added my venv enviromnent as a yaml file in TODO/TODO.
+I'm not even sure if this would work, since the nnU-Net installation is quite specific. The versions used by me are present in requirements.txt
 
 ## Install nnU-Net
 
